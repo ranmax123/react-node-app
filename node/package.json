@@ -1,0 +1,29 @@
+{
+  "name": "task-backend",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ranbeer0350@dev.azure.com/ranbeer0350/Tapestree/_git/task-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
